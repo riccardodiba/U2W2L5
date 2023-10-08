@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Profile netflix</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-dark text-white">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid mx-5">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/Netflix-assets/assets/netflix_logo.png"
+              width="160px"
+              alt="logo"
+            />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="row row-lg-3">
+        <div class="col col-lg-6 offset-lg-3">
+          <h1 class="border-bottom mt-5">Edit Profile</h1>
+          <div class="row row-cols-1 row-cols-lg-2 mt-4">
+            <div class="col col-lg-4 mb-3">
+              <div class="position-relative">
+                <img
+                  class="img-thumbnail"
+                  width="160px"
+                  src="/Netflix-assets/assets/avatar.png"
+                  alt="#"
+                />
+                <span
+                  class="position-absolute bottom-0 start-0 translate-middle p-3 bg-dark ms-4 border border-light rounded-circle"
+                >
+                  <span class="visually-hidden"></span>
+                </span>
+              </div>
+            </div>
+            <div class="col col-lg-6">
+              <div class="border-bottom pb-4 pe-4">
+                <p class="text-bg-secondary px-3 py-2">Strive Student</p>
+                <h4 class="text-white mt-2">Language:</h4>
+                
+                <div class="dropdown">
+                  <button
+                    class="btn btn-secondary dropdown-toggle bg-black btn-lg"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    English
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <a class="dropdown-item active" href="#">Italian</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">German</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Spanish</a>
+                    </li>
+                  </ul>
+                  <div
+                    class="pb-3 mt-4 pe-3 d-flex flex-column align-items-start"
+                  >
+                    <h4 class="text-white">Maturity Settings:</h4>
+                    <p class="text-bg-secondary px-3 py-2 pb-2 mt-2">
+                      ALL MATURITY SETTINGS
+                    </p>
+                    <p class="text-white">
+                      Show title of all maturity rating for this profile
+                    </p>
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary btn-lg"
+                    >
+                      EDIT
+                    </button>
+                  </div>
+                  <div
+                    class="pb-3 mt-4 pe-3 d-flex flex-column align-items-start"
+                  >
+                    <h4 class="text-white">Autoplay Controls</h4>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input rounded-0 bg-secondary"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Autoplay next episode in a series on all devices.
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input rounded-0 text-bg-secondary"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                        checked
+                      />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Autoplay previews while browsing on all devices.
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="row">
+                     <div
+                        class="d-flex flex-lg-row flex-column px-0 py-4 align-items-center align-lg-items-start"
+                     >
+                        <button
+                           type="button"
+                           class="btn btn-outline-secondary fs-4 me-lg-4 px-auto rounded-0 mb-3 w-100 btn-sm"
+                        >
+                           SAVE
+                        </button>
+                        <button
+                           type="button"
+                           class="btn btn-outline-secondary fs-4 me-lg-4 px-auto rounded-0 mb-3 w-100  btn-sm"
+                        >
+                           CANCEL
+                        </button>
+                        <button
+                           type="button"
+                           class="btn btn-outline-secondary fs-4 me-lg-4 px-auto rounded-0 mb-3 w-100  btn-sm"
+                        >
+                           DELETE PROFILE
+                        </button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+    </main>
+  </body>
+</html>
